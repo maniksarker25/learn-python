@@ -1,0 +1,8 @@
+height = max(34,4,35,65,67)
+smallest = min([4,6,6,3,7])
+total = sum([4,6,6,3,7])
+count = len([934,654,64,64])
+print(smallest)
+print(height)
+print(count)
+print(total)
