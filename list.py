@@ -18,3 +18,12 @@ print(numbers[4:]) #[66, 73, 747, 86, 8, 57, 50]
 print(numbers[:5])#[23, 453, 64, 64, 66]
 print(numbers[:])#[23, 453, 64, 64, 66, 73, 747, 86, 8, 57, 50]
 print(numbers[::-1])#[50, 57, 8, 86, 747, 73, 66, 64, 64, 453, 23] short cut to reverse
+
+# here we just get value but not get index
+for num in numbers:
+    print(num)
+
+
+# with index
+for i,num in enumerate(numbers):
+    print(i,num)
