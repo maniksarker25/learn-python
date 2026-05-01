@@ -11,7 +11,7 @@ print(name)
 
 #
 def famous_name(first,last,**addition):
-     name = f' ${first} ${last}'
+     name = f'${first} ${last}'
      print(addition)
     #  print(addition['title'])
      for key,value in addition.items():
